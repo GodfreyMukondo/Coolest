@@ -3,84 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Godfrey Mukondo - Resume</title>
+    <meta name="description" content="Portfolio of Godfrey Mukondo showcasing skills, projects, and experience">
+    <title>Godfrey Mukondo - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <aside class="sidebar">
-            <div class="profile">
-                <h1>Godfrey Mukondo</h1>
-                <p>Final-year IT Student</p>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Godfrey Mukondo</h1>
+            <p>Final Year IT Student | Web Developer | Data Analyst</p>
+            <p><strong>Phone:</strong> +27653552002 | <strong>Email:</strong> godfreymukondo04@gmail.com</p>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                As a final-year student pursuing a Bachelor of Science in Information Technology, my academic journey builds upon a strong foundation established with a diploma in IT. My passion is reflected in my experience with software development, web development, and data analytics. I am actively seeking opportunities to advance my career.
+            </p>
+        </div>
+    </section>
+
+    <!-- Academic Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Academic Projects</h2>
+            <ul>
+                <li>Created a personal project car website.</li>
+                <li>Developed a gaming application for my final year school project.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <p><strong>Institution Name:</strong> Richfield College</p>
+            <p><strong>Location:</strong> Bryanston, Gauteng</p>
+            <p><strong>Degree:</strong> Bachelor of Science in Information Technology (2023 - 2024)</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div>
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C#</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Database Management</h3>
+                    <ul>
+                        <li>SQL Server</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
             </div>
-            <div class="contact-info">
-                <h2>Contact Info</h2>
-                <p><i class="fas fa-map-marker-alt"></i> 129 Romney Avenue,<br> Chartwell Broadacres,<br> Johannesburg</p>
-                <p><i class="fas fa-phone"></i> <a href="tel:+27653552002">+27 653 552 002</a></p>
-                <p><i class="fas fa-envelope"></i> <a href="mailto:godfreymukondo04@gmail.com">godfreymukondo04@gmail.com</a></p>
-            </div>
-        </aside>
+        </div>
+    </section>
 
-        <main class="main-content">
-            <section class="section">
-                <h2><i class="fas fa-user"></i> Summary</h2>
-                <p>As a final-year student pursuing a Bachelor of Science in Information Technology, my academic journey builds upon a strong foundation established with a completed diploma in IT. My passion for the field is evident in extensive experience in software development and software engineering. Expertise spans across web development and data analytics, with a commitment to continually advancing skills and knowledge. Actively seeking apprenticeship or graduate trainee opportunities to further professional growth. Alongside technical abilities, excellent communication and presentation skills have been honed, earning recognition as the best student with a prestigious school award.</p>
-            </section>
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <div class="container">
+            <h2>Certifications</h2>
+            <ul>
+                <li>KPMG Data Analytics Certificate</li>
+                <li>C# Fundamentals Certificate</li>
+                <li>PHP for Beginners with Udemy</li>
+            </ul>
+        </div>
+    </section>
 
-            <section class="section">
-                <h2><i class="fas fa-laptop-code"></i> Academic Projects</h2>
-                <ul>
-                    <li>Created a personal project car website.</li>
-                    <li>Developed a gaming application for my final year school project.</li>
-                </ul>
-            </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="mailto:godfreymukondo04@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </section>
 
-            <section class="section">
-                <h2><i class="fas fa-graduation-cap"></i> Education</h2>
-                <p><strong>Richfield College</strong>, Bryanston, Gauteng</p>
-                <p>Degree in Information Technology – 2023 - 2024</p>
-            </section>
-
-            <section class="section">
-                <h2><i class="fas fa-code"></i> Skills</h2>
-                <h3>Technical Skills</h3>
-                <ul>
-                    <li><strong>Programming Languages:</strong> Python, Java, C#, VB.NET, C++, JavaScript</li>
-                    <li><strong>Web Development:</strong> HTML, HTML5, CSS, React</li>
-                    <li><strong>Java Technologies:</strong> Maven, Hibernate, Spring Framework, JUnit, Java Servlets, JSP, RESTful Web Services, Gradle, Apache Ant, Apache Tomcat</li>
-                    <li><strong>Database Management:</strong> SQL Server, MySQL</li>
-                    <li><strong>APIs:</strong> RESTful API, API Endpoints for Backend</li>
-                    <li><strong>Software Development:</strong> Data Structures and Algorithms, SDLC, UML Use Case Diagrams, Requirements Elicitation</li>
-                    <li><strong>Operating Systems:</strong> Installation and configuration using Linux and Windows</li>
-                    <li><strong>Data Analytics:</strong> Microsoft Power BI, Advanced Microsoft Excel</li>
-                </ul>
-
-                <h3>Soft Skills</h3>
-                <ul>
-                    <li>Excellent data analytic skills</li>
-                    <li>Good report writing and presentation skills</li>
-                    <li>Excellent teamwork skills</li>
-                    <li>Capacity to work under pressure</li>
-                    <li>Ability to work under minimum supervision</li>
-                    <li>Confidentiality</li>
-                </ul>
-            </section>
-
-            <section class="section">
-                <h2><i class="fas fa-certificate"></i> Certifications</h2>
-                <ul>
-                    <li>KPMG Data Analytics Certificate</li>
-                    <li>Certificate in C# Fundamentals</li>
-                    <li>Certificate in PHP for Beginners (Udemy)</li>
-                    <li>Certificate of Attendance for Data Science and Machine Learning Internship Program</li>
-                </ul>
-            </section>
-        </main>
-    </div>
-
-    <footer class="footer">
-        <p>© 2024 Godfrey Mukondo. All rights reserved.</p>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Godfrey Mukondo | All Rights Reserved</p>
     </footer>
+
 </body>
 </html>
